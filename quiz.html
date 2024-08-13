@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body >
+    <div class="game" id="game">
+        
+            <div class="pokemon-container">
+                <img id="pokemonSprite" src="" alt="">
+            </div>
+        <div style="display: flex; flex-direction: row">
+            <p  class="center-text">An Wild&nbsp;</p>
+            <p id="pokemonName" class="center-text">An Wild ________ apeared!</p>
+            <p class="center-text">&nbsp;apeared!</p>
+        </div>
+            <div class="pokemon1-container">
+                <div class="guess-container">
+                    <button class="btn" id="btnOutro" class="disabled" disabled >Proximo</button>
+                    <div class="autocomplete-container">
+                        <input id="pokemonInput" class="txt-input" type="text">
+                        <div id="suggestions" class="autocomplete-suggestions"></div>
+                    </div>
+                    <button class="btn" id="btnGuess">Adivinhar</button>
+                </div>
+                <div id="wrongGuesses" class="wrong-guesses-container"></div>
+            </div>
+            <div id="hearts" class="hearts-container"></div>
+            <p id="score">Acertos: 0</p>
+    </div>
+
+    <div id="gameOver" style="display:none;">
+        <h1>Game Over</h1>
+        <p id="gameOverScore"></p>
+        <button class="btn" id="restart">Jogar Novamente</button>
+    </div>
+</body>
+</html>

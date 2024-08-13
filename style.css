@@ -1,0 +1,115 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'PokemonFont', sans-serif;
+}
+.btn{
+    font-family: 'PokemonFont', sans-serif;
+}
+.txt-input{
+    margin: 5px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+}
+.pokemon-container{
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: auto;
+    margin: 10px;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+}
+.pokemon1-container{
+    padding: 10px;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+}
+.disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+.game{
+    padding: 10px;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 10px;
+
+}
+.pokemon-hidden{
+    filter: brightness(0);
+}
+.center-text{
+    text-align: center;
+}
+.guess-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%; /* Ajusta a largura para preencher o contêiner pai */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+.autocomplete-container {
+
+    position: relative;
+    display: inline-block;
+}
+.autocomplete-suggestions {
+
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%; /* Position the suggestions below the input */
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.autocomplete-suggestion {
+    padding: 8px;
+    cursor: pointer;
+}
+.autocomplete-suggestion:hover {
+    background-color: #f0f0f0;
+}
+.wrong-guesses-container {
+    margin-top: 10px;
+    font-family: 'PokemonFont', sans-serif;
+}
+
+.wrong-guess {
+    color: red;
+    margin: 5px 0;
+}
+
+.hearts-container {
+    font-size: 1.5rem; /* Ajuste o tamanho dos corações conforme necessário */
+}
+
+.heart {
+    color: rgb(255, 114, 114);
+    display: inline-block;
+}
+@font-face {
+    font-family: 'PokemonFont';
+    src: url('fonts/PKMN.ttf') format('truetype'),
+    url('fonts/PKMN.woff2') format('woff2'),
+    url('fonts/PKMN.woff') format('woff');
+}
