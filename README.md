@@ -3,7 +3,7 @@
 
 Jogo de adivinhação de pokemons criado com JavaScript e usando a api [PokeApi](https://pokeapi.co/).
 
- [Clique aqui para jogar 🎮]()
+ [Clique aqui para jogar 🎮](https://jovicruz.github.io/pokequiz/quiz)
 
  ## 🔗 Meus Links
 <a href="https://www.linkedin.com/in/joviccruz/" target="_blank">
