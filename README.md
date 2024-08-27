@@ -1,11 +1,11 @@
 
 # PokeQuiz <img  src="https://cdn-icons-png.flaticon.com/512/188/188987.png" width="36">
 
-Jogo de adivinhação de pokemons criado com JavaScript e usando a api [PokeApi](https://pokeapi.co/).
+Pokemon guessing game created with JavaScript and using the [PokeApi](https://pokeapi.co/).
 
- [Clique aqui para jogar 🎮](https://jovicruz.github.io/pokequiz/quiz)
+ [Click here to Play! 🎮](https://jovicruz.github.io/pokequiz/quiz)
 
- ## 🔗 Meus Links
+ ## 🔗 My Links
 <a href="https://www.linkedin.com/in/joviccruz/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
